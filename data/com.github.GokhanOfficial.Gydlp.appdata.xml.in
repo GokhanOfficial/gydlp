@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!-- Copyright 2017 Jannik Hauptvogel -->
+<!-- Copyright 2023 GokhanOfficial -->
 <component type="desktop-application">
-  <id>com.github.JannikHv.Gydl.desktop</id>
+  <id>com.github.GokhanOfficial.Gydlp.desktop</id>
   <metadata_license>CC0-1.0</metadata_license>
   <project_license>GPL-2.0</project_license>
-  <name>Gydl</name>
+  <name>Gydlp</name>
   <summary>Download content from sites like YouTube</summary>
-  <developer_name>Jannik Hauptvogel</developer_name>
+  <developer_name>GokhanOfficial</developer_name>
   <description>
     <p>
-      Gydl (Graphical youtube-dl) is a tool that enables downloading of content from
+      Gydlp (Graphical yt-dlp) is a tool that enables downloading of content from
       YouTube and many other sites. It provides a minimal interface based on dialogues,
       making it quick and easy to download multimedia content.
     </p>
@@ -22,13 +22,13 @@
       A big thank you to the developer(s).
     </p>
   </description>
-  <launchable>com.github.JannikHv.Gydl.desktop</launchable>
-  <url type="homepage">https://github.com/JannikHv/gydl</url>
-  <url type="bugtracker">https://github.com/JannikHv/gydl/issues</url>
-  <url type="help">https://github.com/JannikHv/gydl/blob/master/README.md</url>
+  <launchable>com.github.GokhanOfficial.Gydl.desktop</launchable>
+  <url type="homepage">https://github.com/GokhanOfficial/gydlp</url>
+  <url type="bugtracker">https://github.com/GokhanOfficial/gydlp/issues</url>
+  <url type="help">https://github.com/GokhanOfficial/gydlp/blob/master/README.md</url>
   <screenshots>
     <screenshot type="default">
-      <image>https://raw.githubusercontent.com/JannikHv/gydl/master/images/screenshot-01.png</image>
+      <image>https://raw.githubusercontent.com/GokhanOfficial/gydlp/master/images/screenshot-01.png</image>
     </screenshot>
   </screenshots>
   <content_rating type="oars-1.1" />
@@ -51,5 +51,5 @@
     </release>
   </releases>
   <update_contact>contact_AT_hembas.se</update_contact>
-  <translation type="gettext">Gydl</translation>
+  <translation type="gettext">Gydlp</translation>
 </component>
