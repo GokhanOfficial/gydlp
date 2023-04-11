@@ -2,10 +2,10 @@
 Categories=AudioVideo;
 Comment=Download content from sites like YouTube
 Encoding=UTF-8
-Exec=gydl.py
+Exec=gydlp.py
 GenericName=YouTube Downloader
 # Translators: This is an icon name, don't translate!
-Icon=gydl
-Name=Gydl
+Icon=gydlp
+Name=Gydlp
 Terminal=false
 Type=Application
