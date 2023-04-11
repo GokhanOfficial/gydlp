@@ -1,11 +1,9 @@
 #!/usr/bin/env python3
 
-__author__     = "Jannik Hauptvogel"
-__maintainer__ = "Jannik Hauptvogel"
-__email__      = "JannikHv@gmail.com"
-__twitter__    = "https://twitter.com/JannikHv"
-__git__        = "https://github.com/JannikHv/gydl"
-__aur__        = "https://aur.archlinux.org/packages/gydl-git/"
+__author__     = "GokhanOfficial"
+__maintainer__ = "GokhanOfficial"
+__git__        = "https://github.com/GokhanOfficial/gydlp"
+__aur__        = "https://aur.archlinux.org/packages/gydlp-git/"
 __credits__    = "rg3"
 __license__    = "GPLv2"
 
@@ -41,7 +39,7 @@ class Gydl:
             return False
 
         def get_audio(self, URL, FORMAT, QUALITY):
-            cmd = ("youtube-dl --no-playlist -x "
+            cmd = ("yt-dlp --no-playlist -x "
                  + "--audio-format FFF "
                  + "--audio-quality QQQ "
                  + "-o \""
@@ -58,7 +56,7 @@ class Gydl:
                 return False
 
         def get_video(self, URL, FORMAT, QUALITY):
-            cmd = ("youtube-dl --no-playlist "
+            cmd = ("yt-dlp --no-playlist "
                  + "-f [ext=FFF+height=QQQ] "
                  + "-o \""
                  + GLib.get_user_special_dir(GLib.USER_DIRECTORY_DOWNLOAD)
